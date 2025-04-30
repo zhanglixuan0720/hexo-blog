@@ -82,7 +82,7 @@
 <meta name="description" content="引言该文档仅适用于VIPL-NVI Project系统配置，且为提纲式的说明，暂不适用于其他系统。 NVI-EDGEHardware 购买硬件设备：mini-PC、硬盘、内存、mini-PC电源线（！！！）。特别说明：mini-PC：须至少有3个及以上 USB-A 3.0+ 接口，网卡 WIFI-6 和 Bluetooth5.0 标准；硬盘：固态1T+。内存：16GB+。  安装硬件设备并启动。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="配置NVI系统">
-<meta property="og:url" content="https://zhanglixuan0720.github.io/2023/03/07/config-nvi-system/index.html">
+<meta property="og:url" content="https://zhanglixuan0720.github.io/hexo-blog/2023/03/07/config-nvi-system/index.html">
 <meta property="og:site_name" content="Lixuan&#39;s Blog">
 <meta property="og:description" content="引言该文档仅适用于VIPL-NVI Project系统配置，且为提纲式的说明，暂不适用于其他系统。 NVI-EDGEHardware 购买硬件设备：mini-PC、硬盘、内存、mini-PC电源线（！！！）。特别说明：mini-PC：须至少有3个及以上 USB-A 3.0+ 接口，网卡 WIFI-6 和 Bluetooth5.0 标准；硬盘：固态1T+。内存：16GB+。  安装硬件设备并启动。">
 <meta property="og:locale" content="en_US">
@@ -122,7 +122,7 @@
 
 
 
-  <link rel="canonical" href="https://zhanglixuan0720.github.io/2023/03/07/config-nvi-system/"/>
+  <link rel="canonical" href="https://zhanglixuan0720.github.io/hexo-blog/2023/03/07/config-nvi-system/"/>
 
 
 
@@ -156,7 +156,7 @@
     
 
     <div class="custom-logo-site-title">
-      <a href="/"  class="brand" rel="start">
+      <a href="/hexo-blog/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
         <span class="site-title">Lixuan's Blog</span>
         <span class="logo-line-after"><i></i></span>
@@ -265,7 +265,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://zhanglixuan0720.github.io">
+    <link itemprop="mainEntityOfPage" href="https://zhanglixuan0720.github.io/hexo-blog">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="">
@@ -366,17 +366,17 @@
 </li>
 <li><p>连接至 NVI Project 专用局域网，并配置IPv4地址为 192.168.1.* | 255.255.255.0 | 192.168.1.1 。<br>其中*的合法取值为1-254，这里建议*&gt;200。</p>
 </li>
-<li><p>更换国内源，可参考<a href="/2023/03/07/config-ubuntu/" title="配置Ubuntu">配置Ubuntu</a>。</p>
+<li><p>更换国内源，可参考<a href="/hexo-blog/2023/03/07/config-ubuntu/" title="配置Ubuntu">配置Ubuntu</a>。</p>
 </li>
-<li><p>下载配置必备系统工具，可参考<a href="/2023/03/07/config-ubuntu/" title="配置Ubuntu">配置Ubuntu</a>，下载完成后，开启ssh，以方便远程连接。</p>
+<li><p>下载配置必备系统工具，可参考<a href="/hexo-blog/2023/03/07/config-ubuntu/" title="配置Ubuntu">配置Ubuntu</a>，下载完成后，开启ssh，以方便远程连接。</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh start</span><br></pre></td></tr></table></figure></li>
-<li><p>下载和配置Clash，可参考<a href="/2023/03/03/install-clash/" title="下载和配置Clash">下载和配置Clash</a>。（可选）</p>
+<li><p>下载和配置Clash，可参考<a href="/hexo-blog/2023/03/03/install-clash/" title="下载和配置Clash">下载和配置Clash</a>。（可选）</p>
 </li>
-<li><p>下载和配置Pinyin，可参考<a href="/2023/03/07/config-ubuntu/" title="配置Ubuntu">配置Ubuntu</a>。（可选）</p>
+<li><p>下载和配置Pinyin，可参考<a href="/hexo-blog/2023/03/07/config-ubuntu/" title="配置Ubuntu">配置Ubuntu</a>。（可选）</p>
 </li>
-<li><p>下载VSCode，可参考<a href="/2023/03/07/config-ubuntu/" title="配置Ubuntu">配置Ubuntu</a>。</p>
+<li><p>下载VSCode，可参考<a href="/hexo-blog/2023/03/07/config-ubuntu/" title="配置Ubuntu">配置Ubuntu</a>。</p>
 </li>
-<li><p>下载安装Anaconda，可参考<a href="/2023/03/07/install-anaconda/" title="下载和安装Anaconda">下载和安装Anaconda</a>，下载完成后，创建 NVI-Project 环境，用于下载后续Python包。建议环境名以edge结尾，如需配置好的环境，可联系<a href="e-Mail">lixuan</a>。</p>
+<li><p>下载安装Anaconda，可参考<a href="/hexo-blog/2023/03/07/install-anaconda/" title="下载和安装Anaconda">下载和安装Anaconda</a>，下载完成后，创建 NVI-Project 环境，用于下载后续Python包。建议环境名以edge结尾，如需配置好的环境，可联系<a href="e-Mail">lixuan</a>。</p>
 </li>
 <li><p>下载安装ROS，可参考<a target="_blank" rel="noopener" href="https://www.ncnynl.com/archives/202007/3796.html">安装并配置ROS环境（Noetic版本）</a>。参考教程中，最后一行的更新如不成功，可以跳过。下载完成后，在 Step7 创建的 NVI-Project 环境中，下载软件包</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install rospkg catkin_tools pip install empy</span><br></pre></td></tr></table></figure></li>
@@ -386,7 +386,7 @@
 <ol start="10">
 <li><p>拷贝system_config中文件到指定位置（按照对应文件注释操作即可）。<br>其中udev相关配置重启后生效。</p>
 </li>
-<li><p>下载配置 Realsense-SDK (from source) 和 Realsense-ROS-Wapper (from bin)，并进行配置，可参考<a target="_blank" rel="noopener" href="https://github.com/IntelRealSense/realsense-ros/tree/ros1-legacy">ROS Wrapper for Intel® RealSense™ Devices</a>和<a href="/2023/03/07/install-realsense-sdk/" title="从源码编译安装Realsense SDK 2.0">从源码编译安装Realsense SDK 2.0</a></p>
+<li><p>下载配置 Realsense-SDK (from source) 和 Realsense-ROS-Wapper (from bin)，并进行配置，可参考<a target="_blank" rel="noopener" href="https://github.com/IntelRealSense/realsense-ros/tree/ros1-legacy">ROS Wrapper for Intel® RealSense™ Devices</a>和<a href="/hexo-blog/2023/03/07/install-realsense-sdk/" title="从源码编译安装Realsense SDK 2.0">从源码编译安装Realsense SDK 2.0</a></p>
 </li>
 <li><p>如需用system_management package，需下载octomap_msgs package。</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install ros-$ROS_DISTRO-octomap-msgs</span><br></pre></td></tr></table></figure></li>
